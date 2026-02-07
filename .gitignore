@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables (IMPORTANT - Contains API Keys!)
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+paper_triage.log
+
+# Output Files (Optional - uncomment if you don't want to commit results)
+# research_papers_results.csv
+
+# Processed Papers
+papers_inbox/*.pdf
+papers_processed/*.pdf
+
+# Google Credentials (IMPORTANT - Keep Private!)
+credentials/*.json
+credentials/google_credentials.json
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+.coverage
+
+# MyPy
+.mypy_cache/

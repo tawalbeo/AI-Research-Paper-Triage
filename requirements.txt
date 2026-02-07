@@ -1,0 +1,11 @@
+# PDF Processing
+PyMuPDF==1.23.8
+
+# AI/Gemini API (FREE)
+google-generativeai==0.3.2
+
+# File System Monitoring
+watchdog==4.0.0
+
+# Environment Variables
+python-dotenv==1.0.1
